@@ -2,6 +2,7 @@
     {
         "squarecolor":"grey",
         "squarewidth":"150px",
-        "squareheight":"150px"
+        "squareheight":"150px",
+        "squareposition":"absolute"
     }
 ]
