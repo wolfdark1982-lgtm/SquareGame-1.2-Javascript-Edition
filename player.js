@@ -5,7 +5,7 @@ square.style.height = data.squareheight || data[0]?.squareheight || '150px';
 square.style.backgroundColor = data.squarecolor || data[0]?.squarecolor || 'grey';
 square.style.position = data.squareposition || data[0]?.squareposition || 'absolute';
 let positionX = 0;
-let positionY = 0;
+let positionY = 150;
 square.style.left = positionX + 'px';
 square.style.top = positionY + 'px';
 document.body.appendChild(square);
